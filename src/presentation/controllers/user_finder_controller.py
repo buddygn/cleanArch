@@ -3,7 +3,7 @@ from src.presentation.http_types.http_response import HttpResponse
 from src.presentation.interfaces.controller_interface import ControllerInterface
 from src.domain.use_cases.user_finder import UserFinder as UserFinderInterface
 
-class UserFinderControler(ControllerInterface):
+class UserFinderController(ControllerInterface):
     def __init__(self, use_case: UserFinderInterface) -> None:
         self.__user_case = use_case
 

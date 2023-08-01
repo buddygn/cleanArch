@@ -3,7 +3,7 @@ from src.presentation.http_types.http_response import HttpResponse
 from src.presentation.interfaces.controller_interface import ControllerInterface
 from src.domain.use_cases.user_register import UserRegister as UserRegisterInterface
 
-class UserRegisterControler(ControllerInterface):
+class UserRegisterController(ControllerInterface):
     def __init__(self, use_case: UserRegisterInterface) -> None:
         self.__user_case = use_case
 
