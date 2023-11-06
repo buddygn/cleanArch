@@ -7,7 +7,7 @@ class DbConnectionHander():
             'mysql+pymysql',
             'root',
             'p4fkt0of',
-            'localhost',
+            '192.168.2.107',
             '3306',
             'clean_database'
         )
